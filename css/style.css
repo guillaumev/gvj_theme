@@ -1,0 +1,12 @@
+/**
+ * Styles for the gvj theme.
+ */
+
+p {
+  text-align: justify;
+}
+
+.geo {
+  display: none;
+}
+
