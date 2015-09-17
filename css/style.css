@@ -23,3 +23,12 @@ footer a {
   color: #ffffff;
 }
 
+footer .block:first-child h2.block-title {
+  margin-top: 20px;
+}
+
+ul.follow li {
+  list-style: none;
+  display: inline;
+}
+
