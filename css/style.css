@@ -6,7 +6,15 @@ p {
   text-align: justify;
 }
 
+.logo img {
+  height: 35px;
+}
+
 .geo {
   display: none;
+}
+
+footer {
+  background-color: #054D4A;
 }
 
