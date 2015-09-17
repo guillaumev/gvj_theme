@@ -16,5 +16,10 @@ p {
 
 footer {
   background-color: #054D4A;
+  color: #FFFFFF;
+}
+
+footer a {
+  color: #ffffff;
 }
 
