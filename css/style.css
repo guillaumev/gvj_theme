@@ -49,9 +49,14 @@ footer .block:first-child h2.block-title {
   margin-top: 20px;
 }
 
+ul.follow {
+  padding-left: 0;
+}
+
 ul.follow li {
   list-style: none;
   display: inline;
+  padding-right: 5px;
 }
 
 /* Consulting */
