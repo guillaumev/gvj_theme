@@ -20,6 +20,10 @@ h1, h2 {
   color: #4E4E4E;
 }
 
+.page-header {
+  border-bottom: none;
+}
+
 header .lead {
   display: none;
 }
