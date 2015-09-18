@@ -84,10 +84,12 @@ ul.follow li {
 
 .feature {
   min-height: 200px;
+  display: table;
 }
 .feature i {
   font-size: 48px;
   color: #054D4A;
+  padding: 10px;
 }
 
 .client {
