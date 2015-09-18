@@ -64,22 +64,25 @@ ul.follow li {
 }
 
 /* Consulting */
+.page-node-4 h1.page-header {
+  color: #805e4b;
+}
+
 .technologies, .services, .clients {
   padding-top: 75px;
   padding-bottom: 75px;
 }
 
 .technologies {
-  background-color: #282f36;
-  color: #ccc;
-}
-
-.technologies h1, .technologies h2, .technologies h3 {
+  background-color: #805e4b;
   color: #fff;
 }
 
+.technologies h1,
+.technologies h2,
+.technologies h3,
 .technologies .feature i {
-  color: #ffffff;
+  color: #fff;
 }
 
 .feature {
