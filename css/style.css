@@ -69,3 +69,11 @@ ul.follow li {
   margin: auto;
   text-align: center;
 }
+
+.client {
+  text-align: center;
+}
+.client img {
+  width: 100px;
+}
+
