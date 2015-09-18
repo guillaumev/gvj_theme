@@ -32,6 +32,16 @@ header .lead {
   height: 35px;
 }
 
+/* Menu */
+.navbar-default {
+  background-color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #054D4A;
+  text-transform: uppercase;
+}
+
 /* Footer */
 .geo {
   display: none;
