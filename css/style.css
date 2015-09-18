@@ -64,8 +64,7 @@ ul.follow li {
 }
 
 /* Consulting */
-.page-node-4 h1.page-header,
-.page-node-4 .region-content h2 {
+.page-node-4 h1.page-header {
   color: #805e4b;
 }
 
@@ -92,7 +91,7 @@ ul.follow li {
 }
 .feature i {
   font-size: 48px;
-  color: #054D4A;
+  color: #805e4b;
   width: 60px;
 }
 
