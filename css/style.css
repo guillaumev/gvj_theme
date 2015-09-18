@@ -2,12 +2,18 @@
  * Styles for the gvj theme.
  */
 
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
 p {
   text-align: justify;
 }
 
 h1, h2 {
   text-align: center;
+  font-weight: 600;
+  color: #4E4E4E;
 }
 
 header .lead {
