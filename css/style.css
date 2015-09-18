@@ -53,7 +53,16 @@ ul.follow li {
 
 /* Consulting */
 .technologies {
-  background-color: #f3f3f3;
+  background-color: #282f36;
+  color: #ffffff;
+}
+
+.technologies h1, .technologies h2 {
+  color: #ffffff;
+}
+
+.technologies .feature i {
+  color: #ffffff;
 }
 
 .feature {
