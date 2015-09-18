@@ -10,6 +10,10 @@ p {
   text-align: justify;
 }
 
+h1 {
+  text-transform: uppercase;
+}
+
 h1, h2 {
   text-align: center;
   font-weight: 600;
