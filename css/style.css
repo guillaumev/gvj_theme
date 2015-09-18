@@ -6,6 +6,14 @@ p {
   text-align: justify;
 }
 
+h1, h2 {
+  text-align: center;
+}
+
+header.lead {
+  display: none;
+}
+
 .logo img {
   height: 35px;
 }
@@ -33,6 +41,10 @@ ul.follow li {
 }
 
 /* Consulting */
+.technologies {
+  background-color: #f3f3f3;
+}
+
 .feature {
   min-height: 200px;
 }
