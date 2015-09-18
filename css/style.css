@@ -32,3 +32,17 @@ ul.follow li {
   display: inline;
 }
 
+/* Consulting */
+.feature {
+  min-height: 200px;
+}
+.feature i {
+  font-size: 48px;
+  float: left;
+  color: #054D4A;
+  height: 200px;
+  width: 110px;
+  line-height: 200px;
+  margin: auto;
+  text-align: center;
+}
