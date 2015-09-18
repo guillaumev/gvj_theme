@@ -24,6 +24,7 @@ header .lead {
   height: 35px;
 }
 
+/* Footer */
 .geo {
   display: none;
 }
@@ -31,6 +32,10 @@ header .lead {
 footer {
   background-color: #054D4A;
   color: #FFFFFF;
+}
+
+footer h1, footer h2 {
+  color: #ffffff;
 }
 
 footer a {
