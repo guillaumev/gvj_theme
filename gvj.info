@@ -26,4 +26,4 @@ regions[page_bottom]    = 'Page bottom'
 
 stylesheets[all][] = css/style.css
 
-settings[bootstrap_cdn] = 3.3.0
+settings[bootstrap_cdn] = 3.3.5
