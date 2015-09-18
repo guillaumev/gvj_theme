@@ -99,3 +99,16 @@ ul.follow li {
   width: 100px;
 }
 
+/* Web */
+.web .feature i,
+.web h1.page-header {
+  color: orange;
+}
+
+.btn-web {
+  color: #ffffff;
+  background-color: orange;
+  font-weight: bold;
+  border-color: #ffffff;
+}
+
