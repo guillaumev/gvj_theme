@@ -55,6 +55,11 @@ ul.follow li {
 }
 
 /* Consulting */
+.technologies, .services, .clients {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
 .technologies {
   background-color: #282f36;
   color: #ccc;
