@@ -102,12 +102,12 @@ ul.follow li {
 /* Web */
 .web .feature i,
 .page-node-3 h1.page-header {
-  color: orange;
+  color: #f1852d;
 }
 
 .btn-web {
   color: #ffffff;
-  background-color: orange;
+  background-color: #f1852d;
   font-weight: bold;
   border-color: #ffffff;
   font-weight: bold;
@@ -115,6 +115,6 @@ ul.follow li {
 }
 
 a.btn-web:hover {
-  background-color: orange;
+  background-color: #f1852d;
   color: #ffffff;
 }
