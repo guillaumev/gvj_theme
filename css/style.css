@@ -164,3 +164,9 @@ a.btn-web:hover {
   color: #f1852d;
   font-weight: bold;
 }
+
+#block-views-work-consulting .thumbnail a > img,
+#block-views-work-web .thumbnail a > img {
+  height: 150px;
+}
+
