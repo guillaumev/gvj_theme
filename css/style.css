@@ -142,3 +142,23 @@ a.btn-web:hover {
   background-color: #f1852d;
   color: #ffffff;
 }
+
+/* Work */
+
+#block-views-work-consulting h2.block-title {
+  color: #805e4b;
+  text-transform: uppercase;
+}
+
+#block-views-work-consulting .caption h3 a {
+  color: #805e4b;
+}
+
+#block-views-work-web h2.block-title {
+  color: #f1852d;
+  text-transform: uppercase;
+}
+
+#block-views-work-web .caption h3 a {
+  color: #f1852d;
+}
