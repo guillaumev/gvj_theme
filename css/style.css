@@ -170,3 +170,28 @@ a.btn-web:hover {
   height: 150px;
 }
 
+/* Home */
+.webconsulting {
+  background: #EFEFEF;
+}
+
+.webconsulting h2 {
+  text-transform: uppercase;
+}
+
+.webconsulting .web {
+  border: 1px solid #f1852d;
+}
+
+.webconsulting .web h2 a {
+  color: #f1852d;
+}
+
+.webconsulting .consulting {
+  border: 1px solid #805e4b;
+}
+
+.webconsulting .consulting h2 a {
+  color: #805e4b;
+}
+
