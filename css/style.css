@@ -71,6 +71,10 @@ footer a {
   color: #ffffff;
 }
 
+footer a:hover {
+  color: #f1852d;
+}
+
 footer .block:first-child h2.block-title {
   margin-top: 20px;
 }
