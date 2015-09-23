@@ -224,7 +224,7 @@ a.btn-web:hover {
 }
 
 /* Who am I ?*/
-.page-node-1 .container {
+.page-node-1 .region-content .container {
   padding-left: 10%;
   padding-right: 10%;
 }
