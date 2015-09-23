@@ -180,14 +180,22 @@ a.btn-web:hover {
   text-transform: uppercase;
 }
 
-.webconsulting .web {
+.webconsulting a {
+  color: #333;
+}
+
+.webconsulting .web:hover {
+  background: #f1852d;
+  color: #fff;
 }
 
 .webconsulting .web h2 {
   color: #f1852d;
 }
 
-.webconsulting .consulting {
+.webconsulting .consulting:hover {
+  background: #805e4b;
+  color: #fff;
 }
 
 .webconsulting .consulting h2 {
