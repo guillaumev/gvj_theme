@@ -178,13 +178,10 @@ a.btn-web:hover {
   margin-top: 50px;
 }
 
-.webconsulting .web {
-  border-right: 1px solid #cdced3;
-  border-left: 1px solid #cdced3;
-}
-
+.webconsulting .web,
 .webconsulting .consulting {
-  border-right: 1px solid #cdced3;
+  padding-right: 10%;
+  padding-left: 10%;
 }
 
 .webconsulting h2 {
