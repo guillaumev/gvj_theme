@@ -171,6 +171,10 @@ a.btn-web:hover {
 }
 
 /* Home */
+.front h2 {
+  text-transform: uppercase;
+}
+
 .webconsulting {
   background: #fafafb;
   border-top: 2px solid;
@@ -183,10 +187,6 @@ a.btn-web:hover {
   padding-right: 10%;
   padding-left: 10%;
   padding-bottom: 50px;
-}
-
-.webconsulting h2 {
-  text-transform: uppercase;
 }
 
 .webconsulting a {
@@ -219,3 +219,6 @@ a.btn-web:hover {
   color: #805e4b;
 }
 
+.front .thumbnail img {
+  height: 150px;
+}
