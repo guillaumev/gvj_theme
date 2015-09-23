@@ -173,6 +173,7 @@ a.btn-web:hover {
 /* Home */
 .webconsulting {
   background: #EFEFEF;
+  border-top: 2px solid;
 }
 
 .webconsulting h2 {
@@ -180,18 +181,16 @@ a.btn-web:hover {
 }
 
 .webconsulting .web {
-  border: 1px solid #f1852d;
 }
 
-.webconsulting .web h2 a {
+.webconsulting .web h2 {
   color: #f1852d;
 }
 
 .webconsulting .consulting {
-  border: 1px solid #805e4b;
 }
 
-.webconsulting .consulting h2 a {
+.webconsulting .consulting h2 {
   color: #805e4b;
 }
 
