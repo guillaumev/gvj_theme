@@ -189,12 +189,20 @@ a.btn-web:hover {
   color: #fff;
 }
 
+.webconsulting .web:hover h2 {
+  color: #fff;
+}
+
 .webconsulting .web h2 {
   color: #f1852d;
 }
 
 .webconsulting .consulting:hover {
   background: #805e4b;
+  color: #fff;
+}
+
+.webconsulting .consulting:hover h2 {
   color: #fff;
 }
 
