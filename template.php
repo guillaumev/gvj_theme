@@ -9,7 +9,10 @@ function gvj_preprocess_html(&$variables) {
 }
 
 function gvj_preprocess_region(&$variables, $hook) {
-  if($variables['region'] == "footer"){
+  if ($variables['region'] == "content" && arg(0) == 'contact') {
+    $variables['classes_array'][] = 'container';
+  }
+  if ($variables['region'] == "footer"){
     $variables['classes_array'][] = 'container';
   }
 }
