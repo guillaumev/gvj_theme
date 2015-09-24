@@ -18,8 +18,7 @@ function gvj_preprocess_region(&$variables, $hook) {
 }
 
 function gvj_preprocess_block(&$vars) {
-  debug($vars);
-  if ($vars['block']->module == 'system' && $vars['block']->delta == 'main' && arg(0) == 'contact') {
+  if ($vars['#block']->module == 'system' && $vars['#block']->delta == 'main' && arg(0) == 'contact') {
     $var['classes_array'][] = 'col-sm-6';
   }
 }
