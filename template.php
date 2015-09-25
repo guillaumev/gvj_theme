@@ -39,7 +39,7 @@ function gvj_preprocess_field(&$vars) {
 
   if ($name == 'field_work_url' && $mode == 'full' && $bundle == 'work') {
     foreach ($vars['items'] as $delta => $item) {
-      $vars['item_attributes_array'][$delta]['class'] = array('btn btn-web');
+      $vars['items'][$delta]['#element']['attributes']['class'] = 'btn btn-web';
     }
     debug($vars);
   }
