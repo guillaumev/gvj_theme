@@ -211,7 +211,8 @@ a.btn-web:hover {
 
 .node-work.view-mode-full .field-name-post-date {
   text-align: center;
-  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 5px;
 }
 
 .node-work.view-mode-full .field-name-field-content-image {
