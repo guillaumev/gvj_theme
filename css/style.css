@@ -144,7 +144,8 @@ ul.follow li {
   color: #f1852d;
 }
 
-.btn-web {
+.btn-web,
+.btn-consulting {
   color: #ffffff;
   background-color: #f1852d;
   font-weight: bold;
@@ -153,9 +154,15 @@ ul.follow li {
   text-transform: uppercase;
 }
 
-a.btn-web:hover {
+a.btn-web:hover,
+a.btn-consulting:hover {
   background-color: #f1852d;
   color: #ffffff;
+}
+
+.btn-consulting,
+a.btn-consulting:hover {
+  background-color: #805e4b;
 }
 
 /* Work */
