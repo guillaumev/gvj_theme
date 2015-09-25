@@ -233,3 +233,8 @@ a.btn-web:hover {
   padding-bottom: 5%;
 }
 
+/* Contact */
+.page-contact .main-container {
+  padding-bottom: 100px;
+}
+
