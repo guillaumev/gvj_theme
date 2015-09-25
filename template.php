@@ -23,3 +23,6 @@ function gvj_preprocess_block(&$vars) {
   }
 }
 
+function gvj_preprocess_field(&$vars) {
+  debug($vars);
+}
