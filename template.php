@@ -24,5 +24,22 @@ function gvj_preprocess_block(&$vars) {
 }
 
 function gvj_preprocess_field(&$vars) {
-  debug($vars);
+  /* Set shortcut variables. Hooray for less typing! */
+  $name = $vars['element']['#field_name'];
+  $bundle = $vars['element']['#bundle'];
+  $mode = $vars['element']['#view_mode'];
+  $classes = &$vars['classes_array'];
+  $title_classes = &$vars['title_attributes_array']['class'];
+  $content_classes = &$vars['content_attributes_array']['class'];
+  $item_classes = array();
+
+  if ($name == 'body' && $mode == 'full' && $bundle == 'work') {
+    $vars['classes_array'] = array_merge($vars['classes_array'], array('container'));
+  }
+
+  if ($name == 'field_work_url' && $mode == 'full' && $bundle == 'work') {
+    foreach ($vars['items'] as $delta => $item) {
+      $vars['item_attributes_array'][$delta]['class'] = array('btn btn-web');
+    }
+  }
 }
