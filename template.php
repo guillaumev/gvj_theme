@@ -41,5 +41,6 @@ function gvj_preprocess_field(&$vars) {
     foreach ($vars['items'] as $delta => $item) {
       $vars['item_attributes_array'][$delta]['class'] = array('btn btn-web');
     }
+    debug($vars);
   }
 }
