@@ -167,27 +167,32 @@ a.btn-consulting:hover {
 
 /* Work */
 
-.page-node-2 .region-content h3 {
+.page-node-2 .region-content h3,
+#block-views-work-latest h3 {
   font-size: 18px;
   text-align: center;
 }
 
-.page-node-2 .region-content p {
+.page-node-2 .region-content p,
+#block-views-work-latest p {
   text-align: center;
 }
 
-.page-node-2 .region-content .thumbnail {
+.page-node-2 .region-content .thumbnail,
+#block-views-work-latest .thumbnail {
   border: none;
 }
 
-.page-node-2 .region-content img {
+.page-node-2 .region-content img,
+#block-views-work-latest img {
   opacity: 1;
   transition: opacity .25s ease-in-out;
   -moz-transition: opacity .25s ease-in-out;
   -webkit-transition: opacity .25s ease-in-out;
 }
 
-.page-node-2 .region-content img:hover {
+.page-node-2 .region-content img:hover,
+#block-views-work-latest img:hover {
   opacity: 0.5;
 }
 
