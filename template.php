@@ -38,8 +38,15 @@ function gvj_preprocess_field(&$vars) {
   }
 
   if ($name == 'field_work_url' && $mode == 'full' && $bundle == 'work') {
-    foreach ($vars['items'] as $delta => $item) {
-      $vars['items'][$delta]['#element']['attributes']['class'] = 'btn btn-web';
+    $nid = arg(1);
+    if ($nid) {
+      $node = node_load($nid);
+      if (isset($node->field_work_type)) {
+        $type = $node->field_work_type[LANGUAGE_NONE][0]['value'];
+        foreach ($vars['items'] as $delta => $item) {
+          $vars['items'][$delta]['#element']['attributes']['class'] = 'btn btn-'.$type;
+        }
+      }
     }
   }
 }
