@@ -149,17 +149,28 @@ a.btn-web:hover {
 
 /* Work */
 
-.page-node-2 h3 {
+.page-node-2 .region-content h3 {
   font-size: 18px;
   text-align: center;
 }
 
-.page-node-2 p {
+.page-node-2 .region-content p {
   text-align: center;
 }
 
-.page-node-2 .thumbnail {
+.page-node-2 .region-content .thumbnail {
   border: none;
+}
+
+.page-node-2 .region-content img {
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+
+.page-node-2 .region-content img:hover {
+  opacity: 0.5;
 }
 
 #block-views-work-consulting h2.block-title {
