@@ -20,6 +20,16 @@ h1, h2 {
   color: #4E4E4E;
 }
 
+a {
+  color: #054D4A;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #054D4A;
+}
+
+
 .page-header {
   border-bottom: none;
 }
@@ -40,6 +50,7 @@ header .lead {
 .navbar-default .navbar-nav > li > a {
   color: #054D4A;
   text-transform: uppercase;
+  font-weight: normal;
 }
 
 .navbar-default .navbar-nav > .active > a,
