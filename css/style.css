@@ -183,10 +183,15 @@ a.btn-web:hover {
   background-color: #efefef;
   padding-top: 50px;
   padding-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .node-work.view-mode-full .field-name-field-content-image img {
   margin: auto;
+}
+
+.node-work.view-mode-full .field-name-field-work-url {
+  text-align: center;
 }
 
 /* Home */
