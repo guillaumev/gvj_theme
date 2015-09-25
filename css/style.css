@@ -149,6 +149,19 @@ a.btn-web:hover {
 
 /* Work */
 
+.page-node-2 h3 {
+  font-size: 18px;
+  text-align: center;
+}
+
+.page-node-2 p {
+  text-align: center;
+}
+
+.page-node-2 .thumbnail {
+  border: none;
+}
+
 #block-views-work-consulting h2.block-title {
   color: #805e4b;
   text-transform: uppercase;
