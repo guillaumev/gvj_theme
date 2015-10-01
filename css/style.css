@@ -71,6 +71,10 @@ header .lead {
   text-transform: uppercase;
 }
 
+#block-locale-language li {
+  display: inline;
+}
+
 /* Footer */
 .geo {
   display: none;
