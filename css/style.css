@@ -61,6 +61,16 @@ header .lead {
   font-weight: bold;
 }
 
+/* Language switcher */
+#block-locale-language {
+  float: right;
+}
+
+#block-locale-language ul {
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
 /* Footer */
 .geo {
   display: none;
