@@ -328,5 +328,12 @@ a.btn-consulting:hover {
 
 .view-news.view-display-id-page h2 {
   text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
 }
+
+.view-news.view-display-id-page .row {
+  margin-bottom: 50px;
+}
+
 
