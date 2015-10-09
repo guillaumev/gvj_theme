@@ -11,8 +11,8 @@ function gvj_preprocess_html(&$variables) {
 function gvj_preprocess_region(&$variables, $hook) {
   if ($variables['region'] == "content" && (arg(0) == 'contact' || arg(0) == 'blog' || arg(0) == 'node')) {
     if (arg(0) == 'node') {
-      $nid = arg(1);
-      if (is_int($nid)) {
+      $nid = intval(arg(1));
+      if ($nid != 0) {
         $node = node_load($nid);
         if ($node && $node->type == 'article') {
           $variables['classes_array'][] = 'container';
