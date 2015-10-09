@@ -70,6 +70,7 @@ function gvj_preprocess_node(&$variables) {
     $readmore = $variables['content']['links']['node']['#links']['node-readmore'];
     $readmore['title'] = t('Read more &raquo;');
     $readmore['attributes']['class'] = array('btn', 'btn-default');
+    debug($readmore);
 
     // remove the old link
     unset($variables['content']['links']['node']['#links']['node-readmore']);
