@@ -14,6 +14,7 @@ function gvj_preprocess_region(&$variables, $hook) {
       $node = node_load(arg(1));
       if ($node->type == 'article') {
         $variables['classes_array'][] = 'container';
+      }
     }
     else {
       $variables['classes_array'][] = 'container';
