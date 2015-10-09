@@ -9,8 +9,15 @@ function gvj_preprocess_html(&$variables) {
 }
 
 function gvj_preprocess_region(&$variables, $hook) {
-  if ($variables['region'] == "content" && arg(0) == 'contact') {
-    $variables['classes_array'][] = 'container';
+  if ($variables['region'] == "content" && (arg(0) == 'contact' || arg(0) == 'blog' || arg(0) == 'node')) {
+    if (arg(0) == 'node') {
+      $node = node_load(arg(1));
+      if ($node->type == 'article') {
+        $variables['classes_array'][] = 'container';
+    }
+    else {
+      $variables['classes_array'][] = 'container';
+    }
   }
   if ($variables['region'] == "footer"){
     $variables['classes_array'][] = 'container';
