@@ -320,3 +320,13 @@ a.btn-consulting:hover {
   padding-bottom: 100px;
 }
 
+/* Blog */
+.view-news.view-display-id-page {
+  max-width: 600px;
+  margin: auto;
+}
+
+.view-news.view-display-id-page h2 {
+  text-align: left;
+}
+
