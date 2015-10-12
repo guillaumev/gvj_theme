@@ -340,12 +340,12 @@ a.btn-consulting:hover {
   margin-bottom: 50px;
 }
 
-.node-article .view-mode-full {
+.node-article.view-mode-full {
   max-width: 600px;
   margin: auto;
 }
 
-.node-article .view-mode-full p {
+.node-article.view-mode-full p {
   margin-top: 30px;
 }
 
