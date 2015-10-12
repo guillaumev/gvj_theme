@@ -8,6 +8,10 @@ body {
 
 p {
   text-align: justify;
+  font-family: Georgia;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.58;
 }
 
 h1 {
