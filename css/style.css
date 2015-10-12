@@ -341,7 +341,7 @@ a.btn-consulting:hover {
 }
 
 .node-article.view-mode-full,
-.node-work.view-mode-full {
+.node-work.view-mode-full .field-name-body {
   max-width: 600px;
   margin: auto;
 }
