@@ -222,6 +222,7 @@ a.btn-consulting:hover {
 #block-views-work-consulting .caption h3 a {
   color: #805e4b;
   font-weight: bold;
+  font-size: 21px;
 }
 
 #block-views-work-web h2.block-title {
@@ -232,6 +233,7 @@ a.btn-consulting:hover {
 #block-views-work-web .caption h3 a {
   color: #f1852d;
   font-weight: bold;
+  font-size: 21px;
 }
 
 #block-views-work-consulting .thumbnail a > img,
