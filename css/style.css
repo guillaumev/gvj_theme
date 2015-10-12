@@ -355,3 +355,7 @@ a.btn-consulting:hover {
   text-transform: uppercase;
 }
 
+.node-article h2 {
+  text-align: left;
+}
+
