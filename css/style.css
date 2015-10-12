@@ -351,3 +351,7 @@ a.btn-consulting:hover {
   margin-top: 30px;
 }
 
+.node-article .field-name-post-date {
+  text-transform: uppercase;
+}
+
