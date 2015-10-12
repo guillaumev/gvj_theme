@@ -6,7 +6,7 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-p {
+p, li {
   text-align: justify;
   font-family: Georgia;
   font-weight: 400;
@@ -55,6 +55,7 @@ header .lead {
   color: #054D4A;
   text-transform: uppercase;
   font-weight: normal;
+  font-size: 16px;
 }
 
 .navbar-default .navbar-nav > .active > a,
