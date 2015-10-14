@@ -123,7 +123,7 @@
     <?php print render($page['header']); ?>
   </header> <!-- /#page-header -->
 
-  <!--<div class="row">-->
+  <div class="row">
 
     <?php if (!empty($page['sidebar_first'])): ?>
       <aside class="col-sm-3" role="complementary">
@@ -161,7 +161,7 @@
       </aside>  <!-- /#sidebar-second -->
     <?php endif; ?>
 
-  <!-- </div>-->
+  </div>
 </div>
 <footer class="footer">
   <?php print render($page['footer']); ?>
