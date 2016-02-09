@@ -108,14 +108,6 @@ footer .block:first-child h2.block-title {
   margin-top: 20px;
 }
 
-ul.follow {
-  padding-left: 0;
-}
-
-ul.follow li {
-  padding-right: 5px;
-}
-
 /* Consulting */
 .page-node-4 h1.page-header {
   color: #805e4b;
