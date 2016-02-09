@@ -113,8 +113,6 @@ ul.follow {
 }
 
 ul.follow li {
-  list-style: none;
-  display: inline;
   padding-right: 5px;
 }
 
@@ -345,7 +343,7 @@ a.btn-consulting:hover {
 
 .node-article.view-mode-full,
 .node-work.view-mode-full .field-name-body {
-  max-width: 600px;
+  max-width: 800px;
   margin: auto;
 }
 
